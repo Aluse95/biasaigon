@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css.map">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Quicksand:wght@600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  <script src="https://kit.fontawesome.com/10af5283a9.js" crossorigin="anonymous"></script>
+  <title>Bia Sài Gòn</title>
+</head>
+<body>
+  <div class="app">
+    <div id="header">
+      <div class="header-main">
+        <div class="container container-header d-flex justify-content-between">
+          <div class="d-flex">
+            <a href="/" class="header-logo">
+              <img class="img-fluid w-100 h-100" src="image/logo.png" alt="logo header">
+            </a>
+            <div class="header-infor bold text-uppercase">
+              Tổng công ty cổ phần bia - rượu - nước giải khát Sài Gòn
+              <div>Công ty cổ phần bia Sài Gòn Bến Tre</div>
+            </div>
+          </div>
+          <div class="header-wrap">
+            <div class="header-contact d-flex justify-content-end">
+              <img src="image/icon-search.png" alt="">
+              <img class="flag-vn" src="image/vietnam.png" alt="">
+              <img class="flag-en" src="image/england.png" alt="">
+            </div>
+            <ul class="header-menu bold d-flex list-unstyled m-0">
+              <li class="menu-item">
+                <a href="" class="menu-link">Giới thiệu</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Sản phẩm </a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Cổ đông </a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Tin tức - Sự kiện</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icon-menu d-md-none">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <div class="close">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+      </div>
+      <div class="menu-mobile">
+        <div class="text-center mb-5">
+          <a href="#" class="header-logo py-3">
+            <img class="img-fluid w-50" src="image/logo.png" alt="logo header">
+          </a>
+        </div>
+        <div class="search-mobile">
+          <input type="text" name="search" placeholder="Tìm kiếm sản phẩm">
+        </div>
+        <ul class=" list-unstyled bold m-0 mt-3">
+          <li class="menu-item py-3">
+            <a href="#" class="menu-link">Trang chủ</a>
+          </li>
+          <li class="menu-item py-3">
+            <a href="#" class="menu-link">Sản phẩm </a>
+          </li>
+          <li class="menu-item py-3">
+            <a href="#" class="menu-link">Tin tức</a>
+          </li>
+          <li class="menu-item py-3">
+            <a href="#" class="menu-link">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="contact-banner position-relative">
+        <img class="img-fluid w-100" src="image/banner-contact.png" alt="banner contact">
+        <div class="bottom d-flex align-items-center">
+          <a href="/">Trang chủ</a>
+          <img class="mx-2" src="image/arrow.png" alt="arrow">
+          <a href="" class="bold">Liên hệ - Góp ý</a>
+        </div>
+      </div>
+      <div class="container container-1160 mb-5">
+        <div class="title">Công ty cổ phần bia Sài Gòn - Bến Tre</div>
+        <p class="contact-more">Mọi thông tin chi tiết xin vui lòng liên hệ</p>
+        <div class="row form-contact">
+          <div class="col-lg-6 col-12">
+            <form action="" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name"  placeholder="Họ và tên *">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email"  placeholder="Email *">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name"  placeholder="Địa chỉ *">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="phone"  placeholder="Điện thoại *">
+              </div>
+              <!-- <div class="form-group">
+                <input type="text" class="form-control w-50" name="code"  placeholder="Mã bảo vệ *">
+              </div> -->
+              <textarea name="content" id="" rows="7" class="w-100" placeholder="Nội dung liên lạc *"></textarea>
+              <button type="submit" class="btn btn-submit w-100">Gửi</button>
+            </form>
+          </div>
+          <div class="col-lg-6 col-12">
+            <ul class="contact-infor p-0">
+              <li class="d-flex align-items-center">
+                <img src="image/fax.png" alt="fax">
+                Fax: 02703. 895 688
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="image/web.png" alt="fax">
+                http://www.savibeco.com.vn
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="image/phone.png" alt="fax">
+                02703 895 999
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="image/email.png" alt="fax">
+                info@savibeco.com.vn
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="image/address.png" alt="fax">
+                Số 11, Khóm Tân Vĩnh Thuận, Phường Tân Ngãi, Thành phố Vĩnh Long, tỉnh Vĩnh Long
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26921.053640847946!2d106.41063145336587!3d10.29985888144257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310aafacba37f791%3A0xb00cadb9298ed871!2zQ8O0bmcgdHkgQ-G7lSBwaOG6p24gQmlhIFPDoGkgR8OybiBC4bq_biBUcmU!5e0!3m2!1svi!2s!4v1692610921155!5m2!1svi!2s" width="100%" height="560" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-12">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="footer-title">
+                  Giới thiệu
+                </div>
+                <div class="line"></div>
+                <ul class="list-unstyled p-0 mb-0">
+                  <li>
+                    <a href="">Tổng quan công ty</a>
+                  </li>
+                  <li>
+                    <a href="">Lịch sử hình thành và phát triển</a>
+                  </li>
+                  <li>
+                    <a href="">Sơ đồ tổ chức của Công ty</a>
+                  </li>
+                  <li>
+                    <a href="">Tầm nhìn - Sứ mệnh</a>
+                  </li>
+                  <li>
+                    <a href="">Công nghệ sản xuất</a>
+                  </li>
+                  <li>
+                    <a href="">Chính sách chất lượng</a>
+                  </li>
+                  <li>
+                    <a href="">Giấy phép - Chứng chỉ</a>
+                  </li>
+                  <li>
+                    <a href="">Hồ sơ năng lực</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="footer-title">
+                  Sản phẩm
+                </div>
+                <div class="line"></div>
+                <ul class="list-unstyled p-0 m-0">
+                  <li>
+                    <a href="">Bia lon SaiGon Special</a>
+                  </li>
+                  <li>
+                    <a href="">Bia lon 333 Export</a>
+                  </li>
+                  <li>
+                    <a href="">Bia lon SaiGon Lager</a>
+                  </li>
+                  <li>
+                    <a href="">Bia chai SaiGon Special</a>
+                  </li>
+                  <li>
+                    <a href="">Bia chai SaiGon Export</a>
+                  </li>
+                  <li>
+                    <a href="">Bia chai SaiGon Lager</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 logo-social">
+            <div class="logo-footer text-center">
+              <img class="img-fluid" src="image/logo.png" alt="logo">
+            </div>
+            <div class="social d-flex justify-content-between">
+              <a href="">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-12">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="footer-title">
+                  Thông tin
+                </div>
+                <div class="line"></div>
+                <ul class="list-unstyled p-0 m-0">
+                  <li>
+                    <a href="">Thư viện ảnh</a>
+                  </li>
+                  <li>
+                    <a href="">Video</a>
+                  </li>
+                  <li>
+                    <a href="">Phát triển bền vững</a>
+                  </li>
+                  <li>
+                    <a href="">Tuyển dụng</a>
+                  </li>
+                  <li>
+                    <a href="">Đối tác - Nhà cung cấp</a>
+                  </li>
+                  <li>
+                    <a href="">Liên hệ</a>
+                  </li>
+                  <li>
+                    <a href="">Tài liệu nội bộ</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="footer-title">
+                  Cổ đông
+                </div>
+                <div class="line"></div>
+                <ul class="list-unstyled p-0 m-0">
+                  <li>
+                    <a href="">Đại hội cổ đông</a>
+                  </li>
+                  <li>
+                    <a href="">Công bố thông tin</a>
+                  </li>
+                  <li>
+                    <a href="">Báo cáo tài chính</a>
+                  </li>
+                  <li>
+                    <a href="">Báo cáo thường niên</a>
+                  </li>
+                  <li>
+                    <a href="">Thông tin cổ phiếu</a>
+                  </li>
+                  <li>
+                    <a href="">Hồ sơ quản trị</a>
+                  </li>
+                  <li>
+                    <a href="">Tài liệu</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        <div class="line mx-auto"></div>
+        <div class="copyright-title bold">Công ty cổ phần bia Sài Gòn - Bến Tre</div>
+        <div class="address">
+          Địa chỉ: Ấp Phước Hậu (thửa đất số 379, tờ bản đồ số 7), Xã An Phước, Huyện Châu Thành, Tỉnh Bến Tre 
+        </div>
+        <div class="phone">Điện thoại: 0275 3635 678 - Email: info@biasaigonbentre.com.vn</div>
+        <div class="copyright-text">2023 © Copyright. All Right Reserved.</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bootstrap.min.js"></script>
+  <script src="jquery.js"></script>
+  <script src="style.js"></script>
+</body>
+</html>
