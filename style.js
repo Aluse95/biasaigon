@@ -7,14 +7,6 @@ $(function() {
       $('.search-form').hide();
     }
   })
-  // $('#header .shopping-cart').click(function() {
-  //   $(this).children('.cart-container').show()
-  // })
-  // $(window).click(function(e) {
-  //   if (!$('.shopping-cart').is(e.target) && $('.shopping-cart').has(e.target).length == 0) {
-  //     $('.cart-container').hide();
-  //   }
-  // })
   $('.icon-menu').click(function() {
     $('.overlay').show();
     $('.menu-mobile').css('transform','translateX(0)');
@@ -46,6 +38,18 @@ $(function() {
     $('#list-product .tab-detail').removeClass('active')
     $('#list-product .tab-content .tab-detail:nth-child(' + id + ')').addClass('active')
   })
+  $("#banner-video").click(function(){
+    $(this).find('.video-infor').hide()
+    // $('#banner-video video').trigger('play');
+    console.log($('#banner-video video'))
+  })
+  $('video').click(function() {
+    this[this.paused ? 'play' : 'pause']();
+  });
+  // $("video").click(function() {
+  //   console.log($(this).get(0))
+  //   $(this).get(0).play();
+  // });
 })
 
 
