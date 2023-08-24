@@ -1,4 +1,12 @@
 @media (max-width : 576px) {
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
   #header .header-infor,
   #header .header-wrap {
     display: none !important;
@@ -57,7 +65,7 @@
   }
   #product .detail-content,
   #list-product .detail-content {
-    margin-left: 4px;
+    margin-left: 6px;
     margin-top: 50px;
   }
   #product .detail-img {
@@ -117,6 +125,9 @@
   #footer {
     padding-top: 30px;
   }
+  #footer .container {
+    padding-left: 20px;
+  }
   #footer .footer-title {
     margin-top: 16px;
   }
@@ -131,8 +142,7 @@
   }
 
   /****** CATEGORY PRODUCT *****/
-  #contact .bottom,
-  #banner-category .bottom {
+  .bottom {
     padding: 12px;
   }
   #category-product .product-detail {
@@ -160,13 +170,98 @@
   #contact iframe {
     height: 360px;
   }
-
-  @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  /****** PRODUCT DETAIL *****/
+  #banner-video {
+    height: auto;
+  }
+  #product-intro {
+    padding: 80px 0;
+  }
+  #product-intro .title {
+    text-align: center;
+  }
+  #product-intro .intro-wrap {
+    margin-left: 6px;
+  }
+  #product-infor {
+    padding: 80px 0;
+    background-position: right;
+  }
+  #product-infor .infor-detail {
+    width: 100%;
+    margin-left: 6px;
+  }
+  #banner-video .video-infor {
+    top: 40px;
+  }
+  #banner-video .video-infor .desc,
+  #banner-video .video-infor .title {
+    display: none;
+  }
+  #product-intro ul li {
+    margin-right: 30px;
+  }
+  /****** INTRODUCE *****/
+  .title-heading {
+    margin-bottom: 30px;
+  }
+  #intro-company .time-line li {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #intro-mission .mission-detail {
+    width: 100%;
+    margin: 0 0 20px 6px;
+  }
+  #intro-company .title {
+    font-size: 2rem;
+    margin: 30px 0;
+  }
+  #intro-company .desc {
+    margin-bottom: 30px;
+  }
+  #intro-company .company-infor {
+    margin: 20px 0 0 6px;
+  }
+  #intro-vision,
+  #intro-business {
+    padding: 30px 0;
+  }
+  #intro-history .history-detail {
+    padding: 30px 8px 0;
+  }
+  #intro-vision .vision-detail {
+    margin: 30px 0 0 6px;
+  }
+  #intro-mission {
+    padding: 0;
+  }
+  #intro-mission .title-heading {
+    margin-bottom: 30px;
+  }
+  #core-value .core-infor {
+    margin: 40px 0;
+  }
+  #certificate .swiper-slide-next {
+    width: auto !important;
+    height: auto;
+  }
+  #technology .desc {
+    margin: 30px 0;
+  }
+  #technology .technology-title {
+    margin-bottom: 30px;
+  }
+  #technology .technology-process_img {
+    margin-bottom: 8px;
+  }
+  #technology .process {
+    margin-top: 30px;
+  }
+  #technology .container-1160 {
+    padding-bottom: 30px;
+  }
+  #certificate div.swiper-button-next {
+    right: 38px;
   }
 }

@@ -41,7 +41,6 @@ $(function() {
   $("#banner-video").click(function(){
     $(this).find('.video-infor').hide()
     // $('#banner-video video').trigger('play');
-    console.log($('#banner-video video'))
   })
   $('video').click(function() {
     this[this.paused ? 'play' : 'pause']();

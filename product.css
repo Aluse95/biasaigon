@@ -2,7 +2,7 @@
 #banner-video {
   height: 735px;
   cursor: pointer;
-  margin-top: 108px;
+  margin-top: 116px;
   margin-bottom: 4px;
   position: relative;
 }
@@ -135,7 +135,7 @@
   margin-bottom: 4px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('image/bg-special.png');
+  background-image: url('image/bg-product-detail1.png');
 }
 #product-intro .intro-wrap {
   margin-left: 780px;
@@ -177,13 +177,14 @@
 #product-infor {
   color: #fff;
   padding: 136px 0;
-  background-image: url('image/bg-special2.png');
+  background-image: url('image/bg-product-detail2.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 #product-infor .infor-detail {
   width: 536px;
   font-weight: 600;
+  margin-left: 100px;
 }
 #product-infor .infor-detail p {
   margin-bottom: 30px;
@@ -192,23 +193,7 @@
   font-weight: 800;
 }
 
-
-
 /******** BANNER PRODUCT CATEGORY ********/
-#banner-category .bottom {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: #fff;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  padding: 12px 0 12px 220px;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-#banner-category .bottom a {
-  color: #fff;
-  text-decoration: none;
-}
 #category-product .container-category {
   max-width: 1190px;
 }
