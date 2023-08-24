@@ -7,6 +7,9 @@
         opacity: 1;
     }
   }
+  #header .icon-menu {
+    display: block;
+  }
   #header .header-infor,
   #header .header-wrap {
     display: none !important;
@@ -14,9 +17,6 @@
   #header .container-header {
     padding: 0 16px;
     align-items: center;
-  }
-  #header .icon-menu {
-    font-size: 3rem;
   }
   #header .menu-link {
     margin-left: 4px;
@@ -137,7 +137,7 @@
   #footer .logo-social {
     display: none;
   }
-  #footer .logo-social + .col-lg-5 > .row > .col-lg-6:first-child {
+  #footer .logo-social + .col-lg-5 > .row > .col-lg-6 {
     padding: 0 7.5px;
   }
 
@@ -263,5 +263,47 @@
   }
   #certificate div.swiper-button-next {
     right: 38px;
+  }
+  /****** SHAREHOLDER *****/
+  #shareholder-list {
+    padding-top: 30px;
+  }
+  #shareholder-list .shareholder-item {
+    margin-bottom: 20px;
+  }
+  /****** SHAREHOLDER DETAIL *****/
+  #shareholder-detail {
+    padding: 30px 0 0;
+  }
+  #shareholder-detail .time-line li {
+    margin-right: 20px;
+  }
+  #shareholder-detail .btn-view,
+  #shareholder-detail .btn-download {
+    padding: 4px 0;
+    min-width: 60px;
+  }
+  #shareholder-detail .btn-view img,
+  #shareholder-detail .btn-download img {
+    display: none;
+  }
+}
+
+@media (min-width : 576px) and (max-width : 992px) {
+  #footer .logo-social + .col-lg-5 > .row > .col-lg-6 {
+    padding-left: 100px;
+  }
+}
+@media (min-width : 576px) and (max-width : 1215px) {
+  #header .header-wrap {
+    display: none;
+  }
+  #header .icon-menu {
+    display: block;
+  }
+}
+@media (min-width : 1215px) and (max-width : 1350px) {
+  #header .menu-link {
+    margin-left: 20px;
   }
 }

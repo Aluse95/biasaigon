@@ -1,0 +1,38 @@
+#banner-shareholder {
+  margin-top: 116px;
+}
+#shareholder-list {
+  padding-top: 70px;
+}
+#shareholder-list .shareholder-item {
+  border-radius: 5px;
+  margin-bottom: 40px;
+  padding: 40px 45px 42px 38px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+#shareholder-list .title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+#shareholder-list .desc {
+  color: #454545;
+  margin-bottom: 30px;
+}
+#shareholder-list .btn-more {
+  color: var(--primary);
+  background-color: #fff;
+  border: 1px solid var(--primary);
+}
+#shareholder-list .btn-more:hover {
+  color: #fff;
+  background-color: var(--primary);
+}
+#shareholder-list .row {
+  margin: 0 -20px;
+}
+#shareholder-list .row .col-lg-6 {
+  padding: 0 20px;
+}

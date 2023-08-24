@@ -194,6 +194,9 @@
 }
 
 /******** BANNER PRODUCT CATEGORY ********/
+#banner-category {
+  margin-top: 116px;
+}
 #category-product .container-category {
   max-width: 1190px;
 }

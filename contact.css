@@ -1,20 +1,6 @@
 #contact {
   font-size: 1.6rem;
 }
-#contact .bottom {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: #fff;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  padding: 12px 0 12px 220px;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-#contact .bottom a {
-  color: #fff;
-  text-decoration: none;
-}
 #contact .title {
   font-size: 2rem;
   font-weight: 700;

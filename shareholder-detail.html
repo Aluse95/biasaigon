@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap.min.css.map">
   <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="shareholder-detail.css">
   <link rel="stylesheet" href="responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,7 @@
               </li>
             </ul>
           </div>
-          <div class="icon-menu d-md-none">
+          <div class="icon-menu">
             <i class="fa-solid fa-bars"></i>
           </div>
         </div>
@@ -93,63 +93,95 @@
       </div>
     </div>
     <div id="content">
-      <section id="banner-video">
-        <video width="100%" height="100%">
-          <source src="image/video.mp4" type="video/mp4" />
-        </video>
-        <div class="video-infor w-100">
-          <div class="btn-play text-center">
-            <div class="btn-circle mx-auto circle-fill">
-              <div class="btn-circle-small">
-                <i class="fa-solid fa-play pl-3"></i>
+      <section id="banner-shareholder" class="position-relative">
+        <img class="img-fluid w-100" src="image/banner-shareholder-detail.png" alt="background">
+        <div class="bottom d-flex align-items-center">
+          <a href="/">Trang chủ</a>
+          <img class="mx-2" src="image/arrow.png" alt="arrow">
+          <a href="">Cổ đông</a>
+          <img class="mx-2" src="image/arrow.png" alt="arrow">
+          <a href="" class="bold">Báo cáo tài chính</a>
+        </div>
+      </section>
+      <section id="shareholder-detail">
+        <div class="container container-1160">
+          <h2 class="title blod text-uppercase position-relative">
+            <div class="arrow-img">
+              <img src="image/left.png" alt="arrow">
+            </div>
+            Báo cáo tài chính
+          </h2>
+          <ul class="time-line list-unstyled m-0 d-flex">
+            <li class="active">2017</li>
+            <li>2018</li>
+            <li>2019</li>
+            <li>2020</li>
+            <li>2021</li>
+            <li>2022</li>
+            <li>2023</li>
+          </ul>
+          <ul class="detail-list list-unstyled">
+            <li class="detail-item d-flex justify-content-between align-items-center">
+              <div class="item-title">
+                Báo cáo tài chính hợp nhất Qúy 2/2023 (26/7/2023)
               </div>
-            </div>
-          </div>
-          <div class="title text-center">Bia Sài Gòn Special</div>
-          <div class="desc text-center">Làm từ 100% lúa mạch mùa xuân</div>
-        </div>
-      </section>
-      <section id="product-intro">
-        <div class="container">
-          <div class="intro-wrap">
-            <div class="title">"Bia Sài Gòn Special"</div>
-            <div class="desc">Được làm từ 100% lúa mạch mùa xuân</div>
-            <div class="introduce">
-              Chỉ những bông lúa mạch mạnh mẽ nhất, phong dưỡng vươn qua mùa đông khắc nghiệt, 
-              nở bùng vào mùa xuân mới đem tới một hương vị bia cực kỳ hảo hạng.
-            </div>
-            <ul class="d-flex align-items-center list-unstyled p-0 m-0">
-              <li>
-                4.9 <div>% độ cồn</div>
-              </li>
-              <li>
-                20 <div>Chai/két</div>
-              </li>
-              <li>
-                24 <div>Lon/thùng</div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="product-infor">
-        <div class="container">
-          <div class="infor-detail">
-            <p><span>Chủng loại sản phẩm:</span> Bia Lager.</p>
-            <p><span>Thành phần:</span> Nước, malt đại mạch, hoa bia.</p>
-            <p class="mb-3"><span>Bao bì:</span></p>
-            <ul class="mb-5">
-              <li>Đóng trong lon nhôm, 24 lon/thùng carton</li>
-              <li>Đóng trong chai thủy tinh màu xanh, 20 chai/két nhựa</li>
-            </ul>
-            <p><span>Hướng dẫn sử dụng:</span> Ngon hơn khi uống lạnh, tốt nhất ở 10 - 15 độ </p>
-            <p class="mb-3"><span>Hướng dẫn bảo quản:</span></p>
-            <ul class="mb-5">
-              <li>Bảo quản nơi khô ráo và thoáng mát.</li>
-              <li>Tránh tiếp xúc trực tiếp với nguồn nóng hoặc ánh sáng mặt trời.</li>
-            </ul>
-            <p><span>Thị trường:</span> Bia Saigon Special được sản xuất và phân phối rộng rãi trên cả nước, đặc biệt tại các thành phố lớn như TPHCM, Hà Nội, Hải Phòng, Đà Nẵng, Cần Thơ... </p>
-          </div>
+              <div class="d-flex">
+                <div class="btn btn-download">
+                  <img src="image/download.svg" alt="icon">
+                  Tải về
+                </div>
+                <div class="btn btn-view">
+                  <img src="image/view.svg" alt="icon">
+                  Xem file
+                </div>
+              </div>
+            </li>
+            <li class="detail-item d-flex justify-content-between align-items-center">
+              <div class="item-title">
+                Giải trình biến động trên BCTC hợp nhất Qúy 2/2023 (26/7/2023)
+              </div>
+              <div class="d-flex">
+                <div class="btn btn-download">
+                  <img src="image/download.svg" alt="icon">
+                  Tải về
+                </div>
+                <div class="btn btn-view">
+                  <img src="image/view.svg" alt="icon">
+                  Xem file
+                </div>
+              </div>
+            </li>
+            <li class="detail-item d-flex justify-content-between align-items-center">
+              <div class="item-title">
+                Báo cáo tài chính riêng Q2 2023 (26/7/2023)
+              </div>
+              <div class="d-flex">
+                <div class="btn btn-download">
+                  <img src="image/download.svg" alt="icon">
+                  Tải về
+                </div>
+                <div class="btn btn-view">
+                  <img src="image/view.svg" alt="icon">
+                  Xem file
+                </div>
+              </div>
+            </li>
+            <li class="detail-item d-flex justify-content-between align-items-center">
+              <div class="item-title">
+                Giải trình Báo cáo tài chính riêng quý 2 năm 2023 (26/7/2023)
+              </div>
+              <div class="d-flex">
+                <div class="btn btn-download">
+                  <img src="image/download.svg" alt="icon">
+                  Tải về
+                </div>
+                <div class="btn btn-view">
+                  <img src="image/view.svg" alt="icon">
+                  Xem file
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
@@ -314,4 +346,3 @@
   <script src="style.js"></script>
 </body>
 </html>
-

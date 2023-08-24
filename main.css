@@ -63,6 +63,10 @@ html {
 #header .header-contact .flag-en {
   margin-left: 12px;
 }
+#header .icon-menu {
+  display: none;
+  font-size: 3rem;
+}
 /******** BANNER ********/
 .bottom {
   position: absolute;
@@ -71,7 +75,7 @@ html {
   color: #fff;
   font-size: 1.2rem;
   line-height: 2rem;
-  padding: 12px 0 12px 220px;
+  padding: 12px 0 12px 190px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .bottom a {
@@ -148,6 +152,11 @@ div.swiper-button-next::after {
   line-height: 26px;
   text-transform: uppercase;
   background-color: var(--primary);
+}
+.btn-more:hover {
+  color: var(--primary);
+  background-color: #fff;
+  border: 1px solid var(--primary);
 }
 /******** PRODUCT ********/
 .bg-content {
@@ -390,7 +399,7 @@ div.swiper-button-next::after {
   font-size: 30px;
   color: rgba(191, 191, 191, 1);
 }
-#footer .logo-social + .col-lg-5 > .row > .col-lg-6:first-child {
+#footer .logo-social + .col-lg-5 > .row > .col-lg-6 {
   padding-left: 60px;
 }
 #footer .copyright {
@@ -413,12 +422,6 @@ div.swiper-button-next::after {
 }
 #footer .copyright-text {
   margin-top: 6px;
-}
-#footer .copyright .line {
-  height: 1px;
-  width: 1156px;
-  margin-bottom: 30px;
-  background-color: #d9d9d9;
 }
 /******** MOBILE ********/
 .overlay {
