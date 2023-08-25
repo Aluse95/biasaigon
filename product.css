@@ -1,14 +1,17 @@
 /******** BANNER VIDEO ********/
 #banner-video {
-  height: 735px;
+  height: 600px;
   cursor: pointer;
   margin-top: 116px;
   margin-bottom: 4px;
   position: relative;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url('image/bg-video.png');
 }
 #banner-video .video-infor {
   position: absolute;
-  top: 274px;
+  top: 150px;
   color: #fff;
   animation: fadeOut 1s ease-in-out;
 }
@@ -45,6 +48,9 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.4);
+}
+#banner-video .video-detail {
+  display: none;
 }
 
 .circle-fill {
@@ -127,7 +133,6 @@
     opacity: 0;
   }
 }
-
 /******** PRODUCT INTRODUCE ********/
 #product-intro {
   color: #fff;

@@ -39,16 +39,11 @@ $(function() {
     $('#list-product .tab-content .tab-detail:nth-child(' + id + ')').addClass('active')
   })
   $("#banner-video").click(function(){
-    $(this).find('.video-infor').hide()
-    // $('#banner-video video').trigger('play');
+    $('#header .overlay').show()
+    const video = $('#banner-video .video-detail').html()
+    $('#header .overlay .content').html(video)
   })
-  $('video').click(function() {
-    this[this.paused ? 'play' : 'pause']();
-  });
-  // $("video").click(function() {
-  //   console.log($(this).get(0))
-  //   $(this).get(0).play();
-  // });
+
 })
 
 

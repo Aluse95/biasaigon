@@ -435,6 +435,12 @@ div.swiper-button-next::after {
   background-color: rgba(0, 0, 0, 0.4);
   animation: fadeIn linear 1.5s;
 }
+.overlay .content {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
 .menu-mobile {
   position: fixed;
   z-index: 20;
