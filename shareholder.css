@@ -5,10 +5,41 @@
   padding-top: 70px;
 }
 #shareholder-list .shareholder-item {
+  position: relative;
   border-radius: 5px;
   margin-bottom: 40px;
   padding: 40px 45px 42px 38px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+#shareholder-list .new-item {
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+}
+#shareholder-list .new-title  {
+  position: absolute;
+  top: 18px;
+  right: 13px;
+  transform: rotate(45deg);
+}
+#shareholder-list .main-border {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 42px 42px 42px 42px;
+  border-color: #FFCF16 #FFCF16 transparent transparent;
+}
+#shareholder-list .sub-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  border-color: #fff #fff transparent transparent;
 }
 #shareholder-list .title {
   font-weight: 700;

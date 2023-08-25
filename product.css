@@ -208,6 +208,9 @@
 #category-product .product-detail {
   padding: 120px 0;
 }
+#category-product .product-detail:last-child {
+  padding: 120px 0 40px;
+}
 #category-product .detail-content {
   margin-left: 60px;
 }
