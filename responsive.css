@@ -290,8 +290,26 @@
 }
 
 @media (min-width : 576px) and (max-width : 992px) {
+  #category-product .product-img {
+    margin-left: 0;
+  }
+  .bottom {
+    padding: 12px;
+  }
+  #product-intro .intro-wrap {
+    margin-left: 0;
+  }
+  #shareholder-list .row {
+    margin: 0;
+  }
+  #shareholder-list .row .col-lg-6 {
+    padding: 0 7.5px;
+  }
   #footer .logo-social + .col-lg-5 > .row > .col-lg-6 {
     padding-left: 100px;
+  }
+  #footer .row .col-lg-5 > .row > .col-lg-6 {
+    padding-left: 40px;
   }
 }
 @media (min-width : 576px) and (max-width : 1215px) {
