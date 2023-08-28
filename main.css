@@ -29,7 +29,7 @@ html {
 }
 #header .header-main {
   color: var(--primary);
-  padding: 20px 0;
+  padding: 14px 0 12px;
 }
 #header .header-logo {
   display: block;
@@ -48,17 +48,25 @@ html {
   font-size: 2rem;
   line-height: 2.7rem;
 }
+#header .header-menu {
+  padding: 10px 0;
+}
+
+#header .menu-item {
+  height: 20px;
+}
 #header .menu-link {
-  margin-left: 46px;
+  margin-left: 40px;
   color: var(--primary);
   text-decoration: none;
   text-transform: uppercase;
 }
 #header .header-contact {
-  margin-bottom: 25px;
+  margin-bottom: 7.2px;
 }
-#header .header-contact .flag-vn {
-  margin-left: 33px;
+#header .header-contact .img-lang {
+  margin-left: 30px;
+  line-height: 2rem;
 }
 #header .header-contact .flag-en {
   margin-left: 12px;
@@ -66,6 +74,42 @@ html {
 #header .icon-menu {
   display: none;
   font-size: 3rem;
+}
+#header .search-button {
+  position: relative;
+  cursor: pointer;
+  line-height: 2rem;
+}
+
+#header
+  .search-button.active
+  input {
+  width: 200px;
+  opacity: 1;
+}
+
+#header
+  .search-button
+  input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 5px;
+  max-width: 200px;
+  width: 0px;
+  /* height: 20px; */
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+#header
+  .search-button
+  .icon {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  height: 20px;
+  transform: translateY(-60%);
 }
 /******** BANNER ********/
 .bottom {

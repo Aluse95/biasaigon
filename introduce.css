@@ -1,12 +1,13 @@
 #banner-intro {
-  margin-top: 116px;
+  margin-top: 108px;
 }
 /******** INTRO COMPANY ********/
 .wrap-timeline {
-  top: 116px;
+  top: 108px;
   z-index: 10;
   position: sticky;
   background-color: #fff;
+  border-top: 1px solid #e8e8e8;
 }
 .time-line {
   padding-top: 24px;

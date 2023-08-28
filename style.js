@@ -43,7 +43,13 @@ $(function() {
     const video = $('#banner-video .video-detail').html()
     $('#header .overlay .content').html(video)
   })
-
+  $("#header .search-button .icon").click(function() {
+    if($("#header .search-button").hasClass("active")) {
+      $("#header .search-button").removeClass("active")
+    } else {
+      $("#header .search-button").addClass("active")
+    }
+  })
 })
 
 
