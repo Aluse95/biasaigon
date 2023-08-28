@@ -2,19 +2,25 @@
   margin-top: 116px;
 }
 /******** INTRO COMPANY ********/
-#intro-company .time-line {
+.wrap-timeline {
+  top: 116px;
+  z-index: 10;
+  position: sticky;
+  background-color: #fff;
+}
+.time-line {
   padding-top: 24px;
   padding-left: 0;
   border-bottom: 1px solid #e8e8e8;
 }
-#intro-company .time-line li {
+.time-line li {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2rem;
   padding-bottom: 12px;
   text-transform: uppercase;
 }
-#intro-company .time-line .active {
+.time-line .active {
   font-weight: 600;
   border-bottom: 3px solid var(--primary);
 }
@@ -25,7 +31,7 @@
   text-transform: uppercase;
 }
 #intro-company .title div {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.8rem;
 }
 #intro-company .title div span {
