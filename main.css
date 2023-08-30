@@ -54,6 +54,70 @@ html {
 
 #header .menu-item {
   height: 20px;
+  position: relative;
+}
+#header .sub-container .menu-item {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+#header .menu-item:last-child {
+  border-bottom: none;
+}
+#header .menu-item:hover > .sub-container {
+  display: block;
+}
+#header .header-menu > .menu-item {
+  padding: 20px 0;
+}
+#header .header-menu > .menu-item::after {
+  position: absolute;
+  left: 36px;
+  top: 40px;
+  content: "";
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+
+}
+#header .sub-container .menu-link {
+  margin-left: 0;
+}
+#header .sub-container {
+  top: 62px;
+  left: 35px;
+  z-index: 10;
+  width: 250px;
+  color: #333;
+  display: none;
+  padding: 8px 12px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: 2px solid var(--primary);
+}
+#header .sub-container a {
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 10px 6px;
+  text-decoration: none;
+  transition: transform ease-in-out 0.2s;
+}
+#header .sub-container .menu-item:hover {
+  background-color: #f1f1f1;
+}
+#header .sub-container .menu-item:hover .icon-down {
+  transform: rotate(-90deg);
+}
+#header .sub-container .menu-item:hover > .menu-link {
+  color: var(--primary);
+  transform: translateX(4px);
+}
+#header .sub-container.sub-menu {
+  top: -3px;
+  left: 227px;
 }
 #header .menu-link {
   margin-left: 40px;
@@ -67,6 +131,9 @@ html {
 #header .header-contact .img-lang {
   margin-left: 30px;
   line-height: 2rem;
+}
+#header .header-contact .img-lang a {
+  text-decoration: none;
 }
 #header .header-contact .flag-en {
   margin-left: 12px;
@@ -97,7 +164,6 @@ html {
   padding-bottom: 5px;
   max-width: 200px;
   width: 0px;
-  /* height: 20px; */
   opacity: 0;
   transition: all ease 0.5s;
 }
@@ -109,7 +175,7 @@ html {
   top: 40%;
   right: 0;
   height: 20px;
-  transform: translateY(-60%);
+  transform: translateY(-50%);
 }
 /******** BANNER ********/
 .bottom {
